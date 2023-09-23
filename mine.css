@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url(hi\ hi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 15px;
+    
+}
+
+ul{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    position: relative;
+}
+
+li{
+    margin-inline: 20px; 
+}
+
+li a{
+    color: white;
+    text-align: center;
+}
+
+li a:hover{
+    color: orangered;
+    transition: ease-in 2s ;
+}
+
+.search{
+    display: flex;
+    justify-items: center;
+    position: relative;
+
+}
+
+.search input{
+    border-radius: 0;
+    border: orangered solid 2px;
+}
+
+form button{
+    border-radius: 0;
+    border: orangered solid 2px;
+    background-color: orangered;
+}
+
+.parent-container{
+    margin-block: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 20px;
+}
+
+.container-1 h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.container-1 h1 span{
+    color: orangered;
+}
+
+.container-1 button{
+    padding-inline: 35px;
+    padding-block: 5px;
+    font-size: 1rem;
+    background-color: orangered;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.container-2{
+    width: 100%;
+    color: white;
+}
+
+.container-2-child{
+    background-color: black;
+    margin-left: 20rem;
+    text-align: center;
+    display: block;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    opacity: 0.7;
+}
+
+.container-2-form input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-block: 0.5rem;
+    font-size: larger;
+    margin-block: 1rem;
+    border-inline: none;
+    border-top: none;
+    border-bottom: 1px orangered solid;
+}
+
+.container-2-form input{
+    color: orangered;
+}
+
+.container-2-form input:focus{
+    outline: none;
+}
+
+
+#login-here{
+    background-color: white;
+    color: orangered;
+    font-weight: bolder;
+    padding-block: 0.5rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  
+}
+
+.container-2-form button{
+    width: 100%;
+    background-color: orangered;
+    color: black;
+    font-weight: bolder;
+    padding-block: 0.5rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.5rem;
+    margin-block: 1rem;
+    font-size: larger;
+}
+
+.container-2-form p a{
+    color: orangered;
+    padding-right: 0.2rem;
+}
+
+#log-with{
+    margin-top: 1rem;
+}
+
+h1{
+    color: aliceblue;
+}
